@@ -31,3 +31,53 @@ Then in the Logisim simulation:
 - Load using `Little-Endian`
 
 Finally, either cycle the clock manually, or let the simulation run!
+
+## Simulation Details
+- To reset the computer, set the `RestSim` pin to 1, the cycle the clock
+- When reset, the PC will point to the memory location indicated by `orig`, ensure your program starts here
+- Only a subset of the instructions are defined, these include:
+```
+Arithmetic:
+- ADD  / ADDI
+- SUB  / SUBI
+- SLL  / SLLI
+- SLTU / SLLI
+- XOR  / XORI
+- SRL  / SRLI
+- SRA  / SRAI
+- OR   / ORI
+- AND  / ANDI
+
+Load/Store:
+- LB/LH/LW
+- SB/SH/SW
+
+Branching:
+- BEQ
+- BNE
+- BLT
+- BGE
+- BLTU
+- BGEU
+
+Addressing Modes:
+- LUI
+- AUIPC
+
+Jumps:
+- JAL
+- JALR
+```
+
+Missing/to be added from the "base" set:
+```
+- LBU/LHU
+- ECALL
+- EBREAK
+- xRET
+- WFI
+- CSRRW
+- FENCE
+```
+
+Additionally, traps and privilege levels are to be added.
