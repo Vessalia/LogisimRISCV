@@ -74,5 +74,5 @@ add_custom_command(TARGET launcher POST_BUILD
 add_custom_command(TARGET launcher POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_if_different
         ${BIN_DIR}/Debug/launcher.exe
-        ${BIN_DIR}/
+        ${CMAKE_CURRENT_BINARY_DIR}/
 )

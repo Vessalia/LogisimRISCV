@@ -14,7 +14,7 @@ cmake --build .
 ## Running Programs
 Run the desired program by executing:
 ```
-./build/bin/launcher [logisim|rars]
+./build/launcher [logisim|rars]
 ```
 for either Logisim-Evolution, or RARS.
 
