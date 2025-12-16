@@ -1,6 +1,9 @@
 # LogisimRISCV
 Logisim Simulation of a RISC-V computer
 
+## Requirements
+Requires Java version 21 or later
+
 ## How to Build
 Build by navigating to `LogisimRISCV/build/` and executing:
 ```
