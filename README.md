@@ -2,7 +2,7 @@
 Logisim Simulation of a RISC-V computer
 
 ## How to Build
-Build by navigating to `Logisim/build/` and executing:
+Build by navigating to `LogisimRISCV/build/` and executing:
 - cmake ..
 - cmake --build .
 
