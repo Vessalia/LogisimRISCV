@@ -5,6 +5,8 @@ node_modules/
 # Only save source and binaries for use in the sim
 **.obj
 
+build/*
+
 # Autosave files for formats in the repo
 *.autosave
 *~*

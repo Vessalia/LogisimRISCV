@@ -1,0 +1,6 @@
+[submodule "dependencies/rars"]
+	path = dependencies/rars
+	url = https://github.com/TheThirdOne/rars.git
+[submodule "dependencies/logisim-evolution"]
+	path = dependencies/logisim-evolution
+	url = https://github.com/logisim-evolution/logisim-evolution.git
